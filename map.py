@@ -10,7 +10,7 @@ numpy.set_printoptions(threshold=sys.maxsize)
 desired_width=320
 pd.set_option('display.width', desired_width)
 np.set_printoptions(linewidth=desired_width)
-
+#ddddddddddddddddddddddd
 pd.set_option('display.max_columns',10)
 img = cv2.imread(r'D:\Eng\Semsters\NEW\10th\Autonomus/37.png', 0)
 ret, thresh1 = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
